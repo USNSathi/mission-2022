@@ -1,22 +1,24 @@
 body{
-    background-color: black;
+    background-image: linear-gradient(black, grey, black);
+    
+    margin-bottom: 0;
 }
 .heading{
     font-size: 80px;
-    color: grey;
+    color: white;
 }
 .heading-color{
-    color: bisque;
+    color: rgb(241, 188, 122);
     font-size: 80px;
 }
 .left-border{
     border-left: 7px solid;
-    border-color: bisque;
+    border-color: rgb(241, 188, 122);
     border-image-slice: 1;
     padding-left: 3%;
 }
 .paragraph1{
-    color: grey;
+    color: white;
     font-family: calibri;
     font-size: 25px;
     text-align: justify;
@@ -35,7 +37,7 @@ body{
 }
 .button{
     color: black;
-    background-color: bisque;
+    background-color: rgb(241, 188, 122);
     font-family: calibri;
     font-weight: bold;
     padding: 10px 10px;
@@ -46,7 +48,7 @@ body{
 .heading-font1{
     font-size: 70px;
     font-family: calibri;
-    color: grey;
+    color: white;
     text-align: center;
     margin-top: 200px;
 }
@@ -56,8 +58,11 @@ body{
     font-family: calibri;
     font-size: 30px;
 }
-.img1{
-    width: 50%;
+.little-img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
 }
 .background1{
     background-color: rgb(210, 232, 241);
@@ -87,23 +92,49 @@ body{
     display: flex;
     margin-top: 200px;
 }
-img{
+.third-img{
     width: 550px;
     margin-left: 200px;
 }
 .heading-font2{
     font-size: 60px;
     font-family: calibri;
-    color: grey;
+    color: white;
     margin-top: 100px;
 }
 .button2{
     color: black;
-    background-color: bisque;
+    background-color: rgb(241, 188, 122);
     font-family: calibri;
     font-weight: bold;
     padding: 10px 10px;
     margin-right: 650px;
     border-radius: 10px;
     text-align: center;
+}
+.forth-img{
+    width: 550px;
+}
+.heading-font3{
+    font-size: 50px;
+    font-family: calibri;
+    color: white;
+    margin-top: 100px;
+}
+.footer{
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-color{
+    color: rgb(238, 134, 8);
+}
+.footer-paragraph{
+    font-size: 18px;
+    font-family: calibri;
 }
