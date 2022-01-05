@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+.heading{
+    font-size: 80px;
+    color: grey;
+}
+.heading-color{
+    color: bisque;
+    font-size: 80px;
+}
+.left-border{
+    border-left: 7px solid;
+    border-color: bisque;
+    border-image-slice: 1;
+    padding-left: 3%;
+}
+.paragraph1{
+    color: grey;
+    font-family: calibri;
+    font-size: 25px;
+    text-align: justify;
+}
+.display1{
+    display:flex;
+}
+.width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.width img{
+    width: 80%;
+    padding-top: 5%;
+}
+.button{
+    color: black;
+    background-color: bisque;
+    font-family: calibri;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-right: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+.heading-font1{
+    font-size: 70px;
+    font-family: calibri;
+    color: grey;
+    text-align: center;
+    margin-top: 200px;
+}
+.color{
+    color: black;
+    padding-left: 5%;
+    font-family: calibri;
+    font-size: 30px;
+}
+.img1{
+    width: 50%;
+}
+.background1{
+    background-color: rgb(210, 232, 241);
+    margin-left: 150px;
+    margin-right: 40px;
+    border-radius: 30px;
+}
+.background2{
+    background-color: rgb(233, 195, 201);
+    margin-right: 40px;
+    border-radius: 30px;
+}
+.background3{
+    background-color: rgb(255, 237, 215);
+    margin-right: 150px;
+    border-radius: 30px;
+}
+.paragraph2{
+    color: black;
+    font-family: calibri;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.display2{
+    display: flex;
+    margin-top: 200px;
+}
+img{
+    width: 550px;
+    margin-left: 200px;
+}
+.heading-font2{
+    font-size: 60px;
+    font-family: calibri;
+    color: grey;
+    margin-top: 100px;
+}
+.button2{
+    color: black;
+    background-color: bisque;
+    font-family: calibri;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-right: 650px;
+    border-radius: 10px;
+    text-align: center;
+}
